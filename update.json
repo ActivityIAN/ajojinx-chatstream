@@ -1,12 +1,16 @@
 {
   "enabled": false,
-  "latestVersion": "0.1.0",
+  "latestVersion": "0.1.1",
   "minimumVersion": "0.1.0",
-  "downloadUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.0/AjoJinxChatStream-Setup.exe",
-  "releasePageUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/tag/v0.1.0",
-  "sha256": "18c48262624df7c6a4a46cd332c9e08990d1b14c921060e26eedf91df2fcc376",
+  "downloadUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.1/AjoJinxChatStream-Setup.exe",
+  "releasePageUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/tag/v0.1.1",
+  "sha256": "c5676fe2f664f1767562b410454a62544d3c145e897dbe571d1fdff37b39be5d",
   "releaseNotes": [
-    "AjoJinx ChatStream 0.1.0 initial testing build.",
-    "No update is currently available."
+    "AjoJinx ChatStream 0.1.1 testing build.",
+    "Simplified OBS dock settings.",
+    "Added Check Update button.",
+    "Merged Start and Stop into one toggle button.",
+    "Locks settings while overlay is running.",
+    "Improved chat card symmetry, avatar fit, display names, and ellipsis."
   ]
 }
