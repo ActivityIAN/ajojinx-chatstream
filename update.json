@@ -4,7 +4,7 @@
   "minimumVersion": "0.1.0",
   "downloadUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.1/AjoJinxChatStream-Setup.exe",
   "releasePageUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/tag/v0.1.1",
-  "sha256": "c5676fe2f664f1767562b410454a62544d3c145e897dbe571d1fdff37b39be5d",
+  "sha256": "64cb25ad9f541f364e674187a89520edd6c8a26a55a939a24b9e17d58b4a872b",
   "releaseNotes": [
     "AjoJinx ChatStream 0.1.1 testing build.",
     "Simplified OBS dock settings.",
