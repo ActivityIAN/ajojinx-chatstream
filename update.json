@@ -2,9 +2,9 @@
   "enabled": false,
   "latestVersion": "0.1.0",
   "minimumVersion": "0.1.0",
-  "downloadUrl": "",
-  "releasePageUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases",
-  "sha256": "",
+  "downloadUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.0/AjoJinxChatStream-Setup.exe",
+  "releasePageUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/tag/v0.1.0",
+  "sha256": "18c48262624df7c6a4a46cd332c9e08990d1b14c921060e26eedf91df2fcc376",
   "releaseNotes": [
     "AjoJinx ChatStream 0.1.0 initial testing build.",
     "No update is currently available."
