@@ -1,16 +1,19 @@
 {
-  "enabled": false,
-  "latestVersion": "0.1.1",
+  "enabled": true,
+  "latestVersion": "0.1.2",
   "minimumVersion": "0.1.0",
-  "downloadUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.1/AjoJinxChatStream-Setup.exe",
-  "releasePageUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/tag/v0.1.1",
-  "sha256": "64cb25ad9f541f364e674187a89520edd6c8a26a55a939a24b9e17d58b4a872b",
+  "downloadUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.2/AjoJinxChatStream-Setup.exe",
+  "releasePageUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/tag/v0.1.2",
+  "sha256": "a7a0773ed2610236cd88cafb44072574a9609d1867c441a32d41b41c96c08b24",
   "releaseNotes": [
-    "AjoJinx ChatStream 0.1.1 testing build.",
-    "Simplified OBS dock settings.",
-    "Added Check Update button.",
-    "Merged Start and Stop into one toggle button.",
-    "Locks settings while overlay is running.",
-    "Improved chat card symmetry, avatar fit, display names, and ellipsis."
+    "AjoJinx ChatStream 0.1.2 update build.",
+    "Added realtime position sliders: Horizontal, Vertical, and Scale.",
+    "Translated OBS dock labels to Bahasa Indonesia.",
+    "Improved chat queue stability for busy live chat.",
+    "Fixed max-message overflow so cards no longer shrink or jump.",
+    "Added dynamic card width for short and long messages.",
+    "Newest chat is visually more dominant.",
+    "Pinned YouTube comments are ignored from the overlay.",
+    "Improved monitor scaling and positioning across different resolutions."
   ]
 }
