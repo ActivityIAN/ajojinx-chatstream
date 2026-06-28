@@ -22,13 +22,10 @@
     }
   ],
   "releaseNotes": [
-    "Preview now uses the same renderer, queue, timing, and animation as live chat.",
-    "The Preview button now toggles between Preview and Tutup Preview.",
-    "Preview messages are natural Indonesian gameplay comments without update-related text.",
-    "The chat render area is taller while remaining limited to about half the monitor width.",
-    "Vertical positioning moves a fixed baseline and the chat stack always grows upward.",
-    "The update-success notification appears after OBS is ready and remains until OK is pressed.",
-    "The file-only updater preserves graceful OBS shutdown, SHA256 verification, rollback, cleanup, and automatic relaunch.",
-    "Approved live animation, queue, emoji, membership badges, polling, pinned behavior, and click-through remain unchanged."
+    "Preview now matches the live chat animation and behavior.",
+    "Added a simple Preview toggle.",
+    "Improved chat layout and positioning.",
+    "Improved updater reliability and OBS relaunch behavior.",
+    "Existing animations, emoji, membership badges, polls, pinned messages, and click-through behavior remain unchanged."
   ]
 }
