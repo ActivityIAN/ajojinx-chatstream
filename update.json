@@ -4,14 +4,25 @@
   "minimumVersion": "0.1.0",
   "downloadUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.3.1/AjoJinxChatStream-Setup.exe",
   "releasePageUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/tag/v0.1.3.1",
-  "sha256": "99929a10368bc557b860d9c3050e83ccd398d3ff848a20e0c1f1b0c6a4ddf54c",
+  "sha256": "ba71ec63dd30bb570e9ad0e96a6dbc9935f7aa162a727409b53698d66eae81da",
+  "updater": {
+    "url": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.3.1/AjoJinxChatStream-Updater.exe",
+    "sha256": "1730aaa439b4484b61789d9c9f765e33fce494a7c8cf1e7e896e8533a7a7ad71"
+  },
+  "files": [
+    {
+      "path": "bin/64bit/ajojinx-chatstream.dll",
+      "url": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.3.1/ajojinx-chatstream.dll",
+      "sha256": "5420dd9623176424b3a438d13817fa4a5566da2e545a2e686600d326335a7494"
+    }
+  ],
   "releaseNotes": [
     "AjoJinx ChatStream 0.1.3.1 minor refinement update.",
-    "Position and overlay settings now persist after OBS is closed and reopened.",
-    "Added a visible plugin version label below the Ian Activity donation button.",
-    "Limited Maks chat to 6 to keep the overlay layout clean.",
-    "Includes clean polling removal, emoji support, membership badges, and stable chat-limit behavior.",
-    "Improved update checks using Windows native networking.",
-    "Added in-app download progress, SHA256 verification, and silent installation with OBS relaunch."
+    "Added a dedicated file-only updater with graceful OBS shutdown, backup, SHA256 verification, rollback, cleanup, and automatic relaunch.",
+    "Streaming, recording, replay buffer, and virtual camera stop normally after the user confirms an update.",
+    "YouTube URL starts empty in a new OBS session while Horizontal, Vertical, and Scale settings remain saved.",
+    "Position and overlay settings persist after OBS is closed and reopened.",
+    "Added a visible plugin version label and limited Maks chat to 6.",
+    "Preserves the approved chat animation, queue, emoji, membership badge, and polling-filter behavior."
   ]
 }
