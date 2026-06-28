@@ -1,28 +1,34 @@
 {
   "enabled": true,
-  "latestVersion": "0.1.3.1",
-  "minimumVersion": "0.1.0",
-  "downloadUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.3.1/AjoJinxChatStream-Setup.exe",
-  "releasePageUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/tag/v0.1.3.1",
-  "sha256": "ba71ec63dd30bb570e9ad0e96a6dbc9935f7aa162a727409b53698d66eae81da",
+  "latestVersion": "0.1.3.2",
+  "minimumVersion": "0.1.3.1",
+  "downloadUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.3.2/AjoJinxChatStream-Setup.exe",
+  "releasePageUrl": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/tag/v0.1.3.2",
+  "sha256": "25a800b2d4ab83ca1ea1aa893abca07648e121f460d0eccd12555bcdbb3bfab3",
   "updater": {
-    "url": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.3.1/AjoJinxChatStream-Updater.exe",
-    "sha256": "1730aaa439b4484b61789d9c9f765e33fce494a7c8cf1e7e896e8533a7a7ad71"
+    "url": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.3.2/AjoJinxChatStream-Updater.exe",
+    "sha256": "f324ff8d9bbf25e1bbf54ced00afdc1a555f9c94cdbdd58538cefde57a4b1c3d"
   },
   "files": [
     {
       "path": "bin/64bit/ajojinx-chatstream.dll",
-      "url": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.3.1/ajojinx-chatstream.dll",
-      "sha256": "5420dd9623176424b3a438d13817fa4a5566da2e545a2e686600d326335a7494"
+      "url": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.3.2/ajojinx-chatstream.dll",
+      "sha256": "1ca16cda6e42d66a39da3c7c8ec3ab02e1e289e6b7b12d08808d0f6de17cdb00"
+    },
+    {
+      "path": "data/helper/resources/app.asar",
+      "url": "https://github.com/ActivityIAN/ajojinx-chatstream/releases/download/v0.1.3.2/app.asar",
+      "sha256": "424065025d375d39913162868ba6d96b43efa3ae3974b6f82599f798c13005ab"
     }
   ],
   "releaseNotes": [
-    "AjoJinx ChatStream 0.1.3.1 minor refinement update.",
-    "Added a dedicated file-only updater with graceful OBS shutdown, backup, SHA256 verification, rollback, cleanup, and automatic relaunch.",
-    "Streaming, recording, replay buffer, and virtual camera stop normally after the user confirms an update.",
-    "YouTube URL starts empty in a new OBS session while Horizontal, Vertical, and Scale settings remain saved.",
-    "Position and overlay settings persist after OBS is closed and reopened.",
-    "Added a visible plugin version label and limited Maks chat to 6.",
-    "Preserves the approved chat animation, queue, emoji, membership badge, and polling-filter behavior."
+    "Preview now uses the same renderer, queue, timing, and animation as live chat.",
+    "The Preview button now toggles between Preview and Tutup Preview.",
+    "Preview messages are natural Indonesian gameplay comments without update-related text.",
+    "The chat render area is taller while remaining limited to about half the monitor width.",
+    "Vertical positioning moves a fixed baseline and the chat stack always grows upward.",
+    "The update-success notification appears after OBS is ready and remains until OK is pressed.",
+    "The file-only updater preserves graceful OBS shutdown, SHA256 verification, rollback, cleanup, and automatic relaunch.",
+    "Approved live animation, queue, emoji, membership badges, polling, pinned behavior, and click-through remain unchanged."
   ]
 }
